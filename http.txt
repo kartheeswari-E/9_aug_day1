@@ -1,0 +1,31 @@
+DIFFERENCE BETWEEN HTTP1.1 VS HTTP2
+
+HTTP1.1:
+=>It is introduced in 1997.
+=>HTTP1.1 loads a single request for every TCP connections.
+     
+FOR EXAMPLE:
+	
+      CLIENT                   SERVER
+            -------request------->
+            <........response......
+             -------request------->
+            <........response...... 
+            -------request------->
+            <........response......
+          
+        It have a 3 TCP connections
+
+HTTP2:
+=>It is introduced in 2015.
+=>It enables full request and response multiplexing.
+=>It is much faster  and more reliable than HTTP1.1.
+
+FOR EXAMPLE:
+	
+      CLIENT                   SERVER
+            -------request------->
+            <........response......
+            
+          
+        It have a 1 TCP connections

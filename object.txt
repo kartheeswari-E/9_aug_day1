@@ -1,0 +1,34 @@
+Objects and its internal representation in Javascript:
+
+javascript object is a collection of named values having properties and method.
+
+FOR EXAMPLE: CAR
+
+=> All cars have the same properties ,but the property values are differ from car to car.
+=>All cars have the same method ,but the method are performed at different times.
+
+OBJECTS:
+ 
+SYNTAX:
+var <object-name> = {key1: value1, key2: value2,... keyN: valueN};   //key also defined as property ;  value also defined as propertyvalue.
+ so JS OBJECT is a container for named values.
+
+OBJECTS PROPERTIES:
+ 
+SYNTAX:
+ObjectName.ObjectProperty = propertyValue;
+
+=>The syntax for adding a property to an object is :
+
+ObjectName.ObjectProperty = propertyValue; 
+
+=>The syntax for deleting a property from an object is:
+
+delete ObjectName.ObjectProperty;
+
+
+OBJECT METHOD:
+An object method is an object property containing a function definition.
+
+SYNTAX:
+function(){return ignition.on}
